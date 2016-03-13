@@ -1,0 +1,29 @@
+﻿Build started 12/6/2014 10:23:52 AM.
+     1>Project "C:\Users\DELL\Documents\Visual Studio 2013\Projects\project4\project4\project4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt encode.cpp
+         encode.cpp
+     1>c:\users\dell\documents\visual studio 2013\projects\project4\project4\encode.cpp(491): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\documents\visual studio 2013\projects\project4\project4\encode.cpp(494): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\documents\visual studio 2013\projects\project4\project4\encode.cpp(544): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\users\dell\documents\visual studio 2013\projects\project4\project4\encode.cpp(560): warning C4042: 'temp_freq' : has bad storage class
+     1>c:\users\dell\documents\visual studio 2013\projects\project4\project4\encode.cpp(565): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\documents\visual studio 2013\projects\project4\project4\encode.cpp(625): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\documents\visual studio 2013\projects\project4\project4\encode.cpp(627): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\documents\visual studio 2013\projects\project4\project4\encode.cpp(478): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\dell\documents\visual studio 2013\projects\project4\project4\encode.cpp(477) : while compiling class template member function 'Min_Heap<Data>::~Min_Heap(void)'
+                 c:\users\dell\documents\visual studio 2013\projects\project4\project4\encode.cpp(654) : see reference to function template instantiation 'Min_Heap<Data>::~Min_Heap(void)' being compiled
+                 c:\users\dell\documents\visual studio 2013\projects\project4\project4\encode.cpp(654) : see reference to class template instantiation 'Min_Heap<Data>' being compiled
+     1>c:\users\dell\documents\visual studio 2013\projects\project4\project4\encode.cpp(374): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\dell\documents\visual studio 2013\projects\project4\project4\encode.cpp(373) : while compiling class template member function 'void Min_Heap<Data>::Min_Heapify(int)'
+                 c:\users\dell\documents\visual studio 2013\projects\project4\project4\encode.cpp(422) : see reference to function template instantiation 'void Min_Heap<Data>::Min_Heapify(int)' being compiled
+     1>c:\users\dell\documents\visual studio 2013\projects\project4\project4\encode.cpp(376): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\documents\visual studio 2013\projects\project4\project4\encode.cpp(378): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DELL\Documents\Visual Studio 2013\Projects\project4\Debug\project4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\DELL\Documents\Visual Studio 2013\Projects\project4\Debug\project4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DELL\Documents\Visual Studio 2013\Projects\project4\Debug\project4.lib" /MACHINE:X86 Debug\encode.obj
+         project4.vcxproj -> C:\Users\DELL\Documents\Visual Studio 2013\Projects\project4\Debug\project4.exe
+     1>Done Building Project "C:\Users\DELL\Documents\Visual Studio 2013\Projects\project4\project4\project4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.42
